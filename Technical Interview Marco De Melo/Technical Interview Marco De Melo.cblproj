@@ -1,0 +1,13 @@
+<Project Sdk="MicroFocus.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DeMeloMarco.cbl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\global.json" />
+  </ItemGroup>
+</Project>
